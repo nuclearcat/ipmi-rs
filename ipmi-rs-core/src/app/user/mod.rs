@@ -18,6 +18,9 @@ pub use get_user_name::GetUserName;
 mod set_user_name;
 pub use set_user_name::{SetUserName, MAX_USER_NAME_LEN};
 
+mod set_user_password;
+pub use set_user_password::{PasswordSize, SetUserPassword, SetUserPasswordError};
+
 /// A user ID, used as the index into the management controller's user table.
 ///
 /// Valid user IDs are in the range `1..=63`. User ID 1 is permanently

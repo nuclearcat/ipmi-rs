@@ -3,6 +3,7 @@
 ## `ipmi-rs-core`
 * Add support for the `SetUserAccess` and `GetUserAccess` commands.
 * Add support for the `SetUserName` and `GetUserName` commands.
+* Add support for the `SetUserPassword` command.
 
 # [0.5.0](https://github.com/datdenkikniet/ipmi-rs/tree/v0.5.0)
 

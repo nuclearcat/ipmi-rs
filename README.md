@@ -62,6 +62,7 @@ The following IPMI commands are currently supported in `ipmi-rs-core`:
 | Get User Access                         | 22.27                 |
 | Set User Name                           | 22.28                 |
 | Get User Name                           | 22.29                 |
+| Set User Password                       | 22.30                 |
 | Set LAN Configuration Parameters        | 23.1                  |
 | Get LAN Configuration Parameters        | 23.2                  |
 | Get SEL Info                            | 31.2                  |

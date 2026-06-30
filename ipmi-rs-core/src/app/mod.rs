@@ -16,8 +16,8 @@ pub use get_channel_access::{
 
 mod user;
 pub use user::{
-    GetUserAccess, GetUserName, SetUserAccess, SetUserName, UserAccess, UserId, UserIdEnableStatus,
-    UserPrivilege, MAX_USER_NAME_LEN,
+    GetUserAccess, GetUserName, PasswordSize, SetUserAccess, SetUserName, SetUserPassword,
+    SetUserPasswordError, UserAccess, UserId, UserIdEnableStatus, UserPrivilege, MAX_USER_NAME_LEN,
 };
 
 pub mod auth;
