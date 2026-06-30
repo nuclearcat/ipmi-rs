@@ -37,6 +37,9 @@ This example discovers available channels and prints channel information. For LA
 ### `ipmi-lan-config`
 This example reads LAN configuration for all LAN channels and emits JSON. You can apply a JSON configuration with `--set`, print the input schema with `--print-schema`, or emit an IPv6 example payload with `--print-v6-example`.
 
+### `ipmi-users`
+This example manages the BMC user table. Use the `list` subcommand to enumerate users and their access, and the `set-access`, `set-name`, `set-password`, `enable`, `disable`, and `test-password` subcommands to configure individual users.
+
 # Project structure
 
 This project contains three crates:
