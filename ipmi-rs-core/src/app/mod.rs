@@ -14,4 +14,9 @@ pub use get_channel_access::{
     ChannelAccess, ChannelAccessMode, ChannelAccessType, ChannelPrivilegeLevel, GetChannelAccess,
 };
 
+mod user;
+pub use user::{
+    GetUserAccess, SetUserAccess, UserAccess, UserId, UserIdEnableStatus, UserPrivilege,
+};
+
 pub mod auth;

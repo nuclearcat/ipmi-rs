@@ -1,5 +1,8 @@
 # Unreleased
 
+## `ipmi-rs-core`
+* Add support for the `SetUserAccess` and `GetUserAccess` commands.
+
 # [0.5.0](https://github.com/datdenkikniet/ipmi-rs/tree/v0.5.0)
 
 * BREAKING: Refactor `IpmiCommand` to reduce/remove completion-code validation for ipmlementors. ([#28])
