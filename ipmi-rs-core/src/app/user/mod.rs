@@ -12,6 +12,12 @@ pub use get_user_access::{GetUserAccess, UserAccess, UserIdEnableStatus};
 mod set_user_access;
 pub use set_user_access::SetUserAccess;
 
+mod get_user_name;
+pub use get_user_name::GetUserName;
+
+mod set_user_name;
+pub use set_user_name::{SetUserName, MAX_USER_NAME_LEN};
+
 /// A user ID, used as the index into the management controller's user table.
 ///
 /// Valid user IDs are in the range `1..=63`. User ID 1 is permanently
